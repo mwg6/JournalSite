@@ -2,15 +2,14 @@ package com.maximgoodman.JournalSite.Service;
 
 import com.maximgoodman.JournalSite.Model.Repositories.UserRepository;
 import com.maximgoodman.JournalSite.Model.UserModel;
-import org.apache.catalina.User;
+import com.maximgoodman.JournalSite.Service.ServiceInterfaces.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import javax.persistence.Entity;
 import java.util.List;
 
 @Component
-public class UserService implements  IUserService{
+public class UserService implements IUserService {
     @Autowired
     private UserRepository userRepository;
 

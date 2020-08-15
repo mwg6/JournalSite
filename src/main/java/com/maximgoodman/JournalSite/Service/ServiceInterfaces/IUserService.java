@@ -1,4 +1,4 @@
-package com.maximgoodman.JournalSite.Service;
+package com.maximgoodman.JournalSite.Service.ServiceInterfaces;
 
 import com.maximgoodman.JournalSite.Model.UserModel;
 
